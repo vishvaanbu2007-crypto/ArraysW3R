@@ -1,5 +1,5 @@
 import java.util.*;
-public class q17{
+public class q18{
     public static void main(String[] args){
         int[] arr=new int[5];
         int i;
@@ -10,6 +10,6 @@ public class q17{
         }
         Arrays.sort(arr);
         System.out.println("Second largest element in array is: "+arr[3]);
-
+        
     }
 }

@@ -8,7 +8,7 @@ public class q16{
         for(i=0;i<size;i++){
             arr[i]=s.nextInt();
         }
-        int dupli=0;
+        
         for(i=0;i<size;i++){
             for(j=i+1;j<size;j++){
                 if(arr[i]==arr[j]){

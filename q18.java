@@ -9,7 +9,7 @@ public class q18{
                 arr[i]=s.nextInt();
         }
         Arrays.sort(arr);
-        System.out.println("Second largest element in array is: "+arr[3]);
+        System.out.println("Second smallest element in array is: "+arr[1]);
         
     }
 }

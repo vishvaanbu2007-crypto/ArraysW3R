@@ -1,0 +1,33 @@
+import java.util.*;
+public class cm24{
+    public static void main(String[] args){
+        Scanner s=new Scanner(System.in);
+        int r,c,i,j;
+        System.out.println("Enter number of row: ");
+        r=s.nextInt();
+        System.out.println("Enter number of columns: ");
+        c=s.nextInt();
+
+        int[][] mat = new int[r][c];
+        
+        System.out.println("Enter elements in matrix: ");
+        for(i=0;i<r;i++){
+            for(j=0;j<c;j++){
+                mat[i][j]=s.nextInt();
+            }
+        }
+        int sum=0;
+        for(i=0;i<r;i++){
+            for(j=0;j<c;j++){
+                if(i+j==r-1){
+                        sum+=mat[i][j];
+                }
+            }
+        }
+        System.out.println("Left diagonal sum is: "+sum);
+
+
+
+
+    }
+}
